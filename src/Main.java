@@ -19,8 +19,10 @@ public class Main {
         try {
             N = in.nextInt();
             k = in.nextInt();
-            if (N>=0 && k>=0)
+            if (N>=0 && k>=0){
             ParserResults.testPerformance(N, k);
+                System.out.println("Каждый метод выполнялся "+k+" раз");
+            }
             else System.out.println("Неверный ввод");
         } catch (Exception expected) {
             System.out.println(expected.getMessage());

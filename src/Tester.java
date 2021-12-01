@@ -131,8 +131,9 @@ public class Tester {
             case END: {
                 return list.size() - 1;
             }
-            default:
-                throw new IllegalStateException("Неожиданное значение: " + position);
+            //default:
+            //    throw new IllegalStateException("Неожиданное значение: " + position);
         }
+        return 0;
     }
 }
